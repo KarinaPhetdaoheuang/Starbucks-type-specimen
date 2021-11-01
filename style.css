@@ -1,5 +1,64 @@
-* {
-  box-sizing: border-box;
+div {
+	margin: 3rem;
 }
 
-/* Add CSS Styles Below */
+@font-face {
+    font-family: 'sodo_sanssemibold';
+    src: url('fonts/sodo_sans_semibold-webfont.woff2') format('woff2'),
+         url('fonts/sodo_sans_semibold-webfont.woff') format('woff');
+    
+
+}
+
+@font-face {
+    font-family: 'catamaranmedium';
+    src: url('fonts/catamaran-medium-webfont.woff2') format('woff2'),
+         url('fonts/catamaran-medium-webfont.woff') format('woff');
+    
+
+}
+
+
+@font-face {
+    font-family: 'catamaransemibold';
+    src: url('fonts/catamaran-semibold-webfont.woff2') format('woff2'),
+         url('fonts/catamaran-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1 rem;
+}
+
+page-title { 
+  font-family: 'sodo_sanssemibold','Catamaran', "Helvetica", "Gotham", "Helvetica Neue", "Helvetica", Arial, "sans-serif";
+font-style: normal;
+}
+
+header {
+  font-size: 2rem;
+  line-height: 3 rem;
+  line-spacing: 2px;
+  font-family: 'sodo_sanssemibold', "Helvetica Neue", "sans-serif"
+}
+
+smaller-header {
+	font-size: 24px;
+	font-family: 'catamaransemibold', 'Helvetica',
+	
+}
+
+menu-links {
+	font-family: 'catamaranmedium';
+}
+
+p {
+background-color: #d8e8e3;
+  font-size: 19px;
+  line-height: 1.4rem;
+  font-family: 'Helvetica', sans-serif;
+}
